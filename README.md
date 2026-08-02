@@ -45,15 +45,15 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
 
 ## Logo ufficiale (da inserire)
 
-L'header usa attualmente il solo logotipo testuale "EHE ITALIA / Associazione Non Solo Laura ODV":
-il marchio precedente era un disegno non ufficiale ed e' stato rimosso.
+L'header usa un segnaposto quadrato (`<span class="logo-placeholder">LOGO</span>`) accanto al
+titolo testuale "EHE Italia - Associazione Non Solo Laura ODV": il marchio precedente era un
+disegno non ufficiale ed e' stato rimosso.
 
 Per inserire il logo ufficiale:
 
 1. Aggiungere il file in `assets/img/logo-ehe-italia.png` (o `.svg`, preferibile).
-2. In tutte le pagine HTML, dentro `<a class="logo" ...>` e prima di `<span class="logo-text">`, aggiungere:
-   `<img class="logo-mark" src="assets/img/logo-ehe-italia.png" alt="" aria-hidden="true" />`
-   (lo stile `.logo-mark` e' gia' presente in `assets/css/style.css`).
+2. In tutte le pagine HTML, sostituire `<span class="logo-placeholder" aria-hidden="true">LOGO</span>`
+   con `<img class="logo-placeholder" src="assets/img/logo-ehe-italia.png" alt="" aria-hidden="true" />`.
 3. Sostituire `assets/img/favicon.svg` e `assets/favicon.svg` con la versione quadrata del marchio.
 
 ## Note

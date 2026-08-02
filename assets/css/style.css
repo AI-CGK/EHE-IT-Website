@@ -131,51 +131,49 @@ ul { margin: 0 0 var(--space-2); padding-left: 1.1rem; }
   gap: 10px;
   text-decoration: none;
   color: var(--c-primary-dark);
-  font-family: var(--ff-heading);
-  font-size: 1rem;
-  font-weight: 700;
   flex: none;
-  max-width: 60%;
+  min-width: 0;
+  max-width: 62%;
 }
 
-.logo-mark {
+.logo-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 0;
   flex: none;
+  border: 1px dashed var(--c-border);
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-warm);
+  color: var(--c-text-muted);
+  font-family: var(--ff-body);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
 }
 
 .logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
+  font-family: var(--ff-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  color: var(--c-primary-dark);
   min-width: 0;
 }
 
-.logo-title {
-  font-family: var(--ff-body);
-  font-weight: 800;
-  font-size: 1.1rem;
-  letter-spacing: 0.02em;
-  color: var(--c-primary);
-}
+.logo-sep { color: var(--c-primary-soft); }
 
-.logo-subtitle {
-  font-family: var(--ff-body);
-  font-weight: 400;
-  font-size: 0.62rem;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: var(--c-text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.logo-subtitle { font-weight: 600; }
+
+@media (max-width: 767px) {
+  .logo-text { font-size: 0.95rem; }
+  .logo-sep,
+  .logo-subtitle { display: none; }
 }
 
 @media (max-width: 420px) {
-  .logo-mark { width: 34px; height: 34px; }
-  .logo-title { font-size: 1rem; }
-  .logo-subtitle { font-size: 0.56rem; letter-spacing: 0.05em; }
+  .logo-placeholder { width: 34px; height: 34px; font-size: 0.55rem; }
 }
 
 .nav-toggle {
@@ -617,17 +615,23 @@ th { background: var(--c-bg-soft); color: var(--c-primary-dark); }
   .nav-trigger { padding: 10px 8px; font-size: 0.9rem; }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .logo-sep,
   .logo-subtitle { display: none; }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   a.header-cta {
     display: inline-flex;
     flex: none;
+    margin-left: var(--space-2);
     padding: 10px 18px;
   }
   .mobile-donate-sticky { display: none; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  a.header-cta { padding: 9px 14px; font-size: 0.9rem; }
 }
 
 @media (min-width: 1024px) {
