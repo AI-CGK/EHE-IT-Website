@@ -4,11 +4,19 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
 
 ## Cosa contiene
 
-- 9 pagine HTML navigabili:
+- 17 pagine HTML navigabili:
   - `index.html`
-  - `ho-ricevuto-la-diagnosi.html`
   - `che-cos-e-ehe.html`
+  - `servizi-per-il-paziente.html`
   - `dove-curarsi.html`
+  - `documenti-di-consenso.html`
+  - `the-pledge.html`
+  - `progetti-ed-eventi.html`
+  - `storie-di-pazienti-e-caregiver-ehe.html`
+  - `5x1000.html`
+  - `diventa-socio.html`
+  - `blog.html`
+  - `ho-ricevuto-la-diagnosi.html`
   - `ricerca.html`
   - `sostienici.html`
   - `associazione.html`

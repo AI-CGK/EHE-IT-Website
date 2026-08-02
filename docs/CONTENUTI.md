@@ -12,7 +12,7 @@
 - Background soft: `#FDEEE9`
 - Testo: `#23262B`
 - Testo secondario: `#5C6169`
-- Supporto: `#7B9E8A`
+- Supporto: `#FDEEE9`
 - Gradiente petali: `linear-gradient(135deg, #FCE8A8 0%, #F5A199 55%, #E8535F 100%)`
 
 ## Dove curarsi (`dove-curarsi.html`) — rete confermata (10)

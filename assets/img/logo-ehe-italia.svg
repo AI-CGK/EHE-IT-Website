@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 92" role="img" aria-label="EHE ITALIA Associazione Non Solo Laura ODV">
+  <rect width="360" height="92" fill="#fff" rx="12"/>
+  <g transform="translate(10,8)">
+    <circle cx="34" cy="38" r="29" fill="#FDEEE9"/>
+    <ellipse cx="34" cy="17" rx="9" ry="15" fill="#FCE8A8"/>
+    <ellipse cx="50" cy="23" rx="9" ry="15" transform="rotate(35 50 23)" fill="#F2A93B"/>
+    <ellipse cx="57" cy="39" rx="9" ry="15" transform="rotate(72 57 39)" fill="#F5A199"/>
+    <ellipse cx="50" cy="55" rx="9" ry="15" transform="rotate(112 50 55)" fill="#E8535F"/>
+    <ellipse cx="34" cy="61" rx="9" ry="15" transform="rotate(165 34 61)" fill="#F2A93B"/>
+    <ellipse cx="18" cy="55" rx="9" ry="15" transform="rotate(220 18 55)" fill="#FCE8A8"/>
+    <ellipse cx="11" cy="39" rx="9" ry="15" transform="rotate(255 11 39)" fill="#F5A199"/>
+    <ellipse cx="18" cy="23" rx="9" ry="15" transform="rotate(315 18 23)" fill="#E8535F"/>
+    <circle cx="34" cy="39" r="12" fill="#B93744"/>
+  </g>
+  <g font-family="Lora, serif" fill="#B93744">
+    <text x="86" y="42" font-size="36" font-weight="700">EHE ITALIA</text>
+    <text x="86" y="66" font-size="13" fill="#5C6169" font-family="Inter, sans-serif">Associazione Non Solo Laura ODV</text>
+  </g>
+</svg>
