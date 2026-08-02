@@ -227,6 +227,12 @@ ul { margin: 0 0 var(--space-2); padding-left: 1.1rem; }
   background: linear-gradient(180deg, var(--c-bg-warm) 0%, var(--c-bg) 100%);
 }
 
+.btn-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .hero-grid {
   display: grid;
   gap: var(--space-4);
