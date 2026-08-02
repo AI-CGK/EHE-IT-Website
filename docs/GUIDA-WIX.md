@@ -1,12 +1,12 @@
-# GUIDA WIX — Palette ufficiale EHE Italia
+# Guida Wix - Palette ufficiale EHE Italia
 
-Inserire nel Theme Manager Wix i seguenti colori (HEX esatti):
+## Theme Manager (HEX ufficiali)
 
-- `--c-primary: #E8535F` (corallo identitario, titoli grandi/elementi brand)
+- `--c-primary: #E8535F` (corallo identitario: titoli grandi, elementi brand)
 - `--c-primary-dark: #B93744` (corallo scuro per testo piccolo/link con contrasto AA)
 - `--c-primary-soft: #F5A199` (superfici ampie e sfondi tenui)
-- `--c-accent: #F2A93B` (CTA **Dona**; usare testo `#23262B`)
-- `--c-accent-light: #FCE8A8` (highlight/box informativi)
+- `--c-accent: #F2A93B` (CTA Dona)
+- `--c-accent-light: #FCE8A8` (highlight e box informativi)
 - `--c-bg: #FFFFFF`
 - `--c-bg-warm: #FDF8F4`
 - `--c-bg-soft: #FDEEE9`
@@ -18,8 +18,21 @@ Gradiente decorativo riutilizzabile:
 
 - `--grad-petals: linear-gradient(135deg, #FCE8A8 0%, #F5A199 55%, #E8535F 100%)`
 
-## Note accessibilità
+## Regole contrasto (AA)
 
-- Evitare `#E8535F` per testo corrente su bianco (non AA 4.5:1).
-- Usare `#B93744` per link o testo piccolo su sfondo chiaro.
-- Per bottoni accent `#F2A93B`, mantenere testo scuro `#23262B`.
+- Non usare `#E8535F` per body text su bianco.
+- Usare `#B93744` per link e testo piccolo su sfondi chiari.
+- Su bottoni accent `#F2A93B`, usare testo `#23262B`.
+
+## Mappatura sezione per sezione (Home)
+
+1. Hero: sezione Wix a 2 colonne (testo + immagine), 2 bottoni.
+2. Tre porte: Repeater 3 card.
+3. Definizione EHE: sezione testo centrato (max width ~720).
+4. Numeri impatto: 4 statistic cards.
+5. Storia: sezione 2 colonne (immagine + quote).
+6. Ricerca: Repeater 3 card progetto.
+7. Partner: griglia 4 card/loghi.
+8. News: Repeater 3 card.
+9. Newsletter + 5x1000: sezione 2 colonne con form e CTA.
+10. Footer: multicolonna con contatti, link, CF.

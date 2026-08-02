@@ -1,4 +1,4 @@
-# Contenuti aggiornati — EHE Italia
+# Contenuti pagine - EHE Italia (dati aggiornati)
 
 ## Palette ufficiale
 
@@ -15,7 +15,7 @@
 - Supporto: `#7B9E8A`
 - Gradiente petali: `linear-gradient(135deg, #FCE8A8 0%, #F5A199 55%, #E8535F 100%)`
 
-## Rete centri di riferimento (10)
+## Dove curarsi (`dove-curarsi.html`) — rete confermata (10)
 
 ### Nord
 1. Fondazione IRCCS Istituto Nazionale dei Tumori — Milano
@@ -33,4 +33,4 @@
 9. A.O.U. Policlinico Paolo Giaccone — Palermo
 10. ISMETT — Istituto Mediterraneo per i Trapianti e Terapie ad Alta Specializzazione — Palermo
 
-Per ogni centro: nome struttura, città, specializzazione, indirizzo, contatti per reparto (Oncologia Medica/Chirurgia dove presenti), link prenotazione placeholder e naming placeholder foto.
+Ogni scheda riporta: struttura, città, specializzazione, indirizzo, contatti per reparto (Oncologia Medica/Chirurgia dove presenti), link prenotazione placeholder e riferimento al nome file foto reale da caricare.
