@@ -1,3 +1,5 @@
+/* WIX: menu hamburger, sottomenu a tendina, accordion e animazioni di ingresso hanno equivalente nativo.
+   WIX: il filtro centri in dove-curarsi (data-center-filter / data-center-region / data-center-card) va riscritto in Velo + CMS. */
 (() => {
   const navToggle = document.querySelector('[data-nav-toggle]');
   const nav = document.querySelector('[data-main-nav]');
@@ -103,7 +105,10 @@
   });
 
   const revealElements = [...document.querySelectorAll('.reveal')];
-  if ('IntersectionObserver' in window && revealElements.length) {
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReducedMotion) {
+    revealElements.forEach((el) => el.classList.add('show'));
+  } else if ('IntersectionObserver' in window && revealElements.length) {
     const observer = new IntersectionObserver((entries, obs) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -111,7 +116,7 @@
           obs.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.1 });
     revealElements.forEach((el) => observer.observe(el));
   } else {
     revealElements.forEach((el) => el.classList.add('show'));
