@@ -10,49 +10,75 @@
   <meta property="og:title" content="EHE Italia | Informazione e supporto per chi convive con l'EHE" />
   <meta property="og:description" content="EHE Italia – Associazione Non Solo Laura ODV accompagna pazienti e caregiver con informazioni affidabili sull'emangioendotelioma epitelioide, orientamento ai centri esperti e supporto alla ricerca." />
   <meta property="og:url" content="https://ai-cgk.github.io/EHE-IT-Website/index.html" />
-  <meta property="og:image" content="https://placehold.co/1200x630/274c77/FFFFFF?text=EHE+Italia" />
+  <meta property="og:image" content="https://placehold.co/1200x630/B93744/FFFFFF?text=EHE+Italia" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="EHE Italia | Informazione e supporto per chi convive con l'EHE" />
   <meta name="twitter:description" content="EHE Italia – Associazione Non Solo Laura ODV accompagna pazienti e caregiver con informazioni affidabili sull'emangioendotelioma epitelioide, orientamento ai centri esperti e supporto alla ricerca." />
-  <meta name="twitter:image" content="https://placehold.co/1200x630/274c77/FFFFFF?text=EHE+Italia" />
+  <meta name="twitter:image" content="https://placehold.co/1200x630/B93744/FFFFFF?text=EHE+Italia" />
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css?v=2" />
 </head>
 <body>
 <a class="skip-link" href="#contenuto">Vai al contenuto principale</a>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="index.html" aria-label="EHE Italia, Associazione Non Solo Laura ODV - home">
-      <img class="logo-mark" src="assets/img/logo-ehe-italia.svg" alt="" aria-hidden="true" />
-      <span class="logo-text">
-        <span class="logo-title">EHE ITALIA</span>
-        <span class="logo-subtitle">Associazione Non Solo Laura ODV</span>
-      </span>
+    <a class="logo" href="index.html" aria-label="EHE Italia, Associazione Non Solo Laura ODV - home" aria-current="page">
+      <span class="logo-placeholder" aria-hidden="true">LOGO</span>
+      <span class="logo-text">EHE Italia <span class="logo-sep" aria-hidden="true">—</span> <span class="logo-subtitle">Associazione Non Solo Laura ODV</span></span>
     </a>
     <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav">Menu</button>
     <nav id="main-nav" class="main-nav" data-main-nav aria-label="Navigazione principale">
       <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="che-cos-e-ehe.html">Cos'è l'EHE</a></li>
-        <li><a href="servizi-per-il-paziente.html">Servizi paziente</a></li>
-        <li><a href="dove-curarsi.html">Dove curarsi</a></li>
-        <li><a href="documenti-di-consenso.html">Documenti di consenso</a></li>
-        <li><a href="the-pledge.html">The Pledge</a></li>
-        <li><a href="progetti-ed-eventi.html">Progetti ed eventi</a></li>
-        <li><a href="storie-di-pazienti-e-caregiver-ehe.html">Storie</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="diventa-socio.html">Diventa socio</a></li>
-        <li><a href="sostienici.html">Sostienici</a></li>
-        <li><a href="contatti.html">Contatti</a></li>
-        <li><a class="btn btn-accent" href="5x1000.html">5x1000</a></li>
+        <li class="nav-item has-submenu" data-nav-item>
+          <button class="nav-trigger" type="button" data-submenu-trigger aria-expanded="false" aria-controls="submenu-ehe">Ho l'EHE<span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="submenu" id="submenu-ehe">
+            <li><a href="che-cos-e-ehe.html">Cos'è l'EHE</a></li>
+            <li><a href="ho-ricevuto-la-diagnosi.html">Ho ricevuto la diagnosi</a></li>
+            <li><a href="dove-curarsi.html">Dove curarsi</a></li>
+            <li><a href="documenti-di-consenso.html">Documenti di consenso</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-submenu" data-nav-item>
+          <button class="nav-trigger" type="button" data-submenu-trigger aria-expanded="false" aria-controls="submenu-supporto">Supporto<span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="submenu" id="submenu-supporto">
+            <li><a href="supporto.html">Supporto e ascolto</a></li>
+            <li><a href="servizi-per-il-paziente.html">Servizi per il paziente</a></li>
+            <li><a href="storie-di-pazienti-e-caregiver-ehe.html">Storie di pazienti e caregiver</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-submenu" data-nav-item>
+          <button class="nav-trigger" type="button" data-submenu-trigger aria-expanded="false" aria-controls="submenu-ricerca">Ricerca<span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="submenu" id="submenu-ricerca">
+            <li><a href="ricerca.html">La ricerca sull'EHE</a></li>
+            <li><a href="the-pledge.html">The Pledge</a></li>
+            <li><a href="progetti-ed-eventi.html">Progetti ed eventi</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-submenu" data-nav-item>
+          <button class="nav-trigger" type="button" data-submenu-trigger aria-expanded="false" aria-controls="submenu-associazione">Associazione<span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="submenu" id="submenu-associazione">
+            <li><a href="associazione.html">Chi siamo</a></li>
+            <li><a href="blog.html">Blog e news</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-submenu" data-nav-item>
+          <button class="nav-trigger" type="button" data-submenu-trigger aria-expanded="false" aria-controls="submenu-sostienici">Sostienici<span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="submenu" id="submenu-sostienici">
+            <li><a href="sostienici.html">Come sostenerci</a></li>
+            <li><a href="diventa-socio.html">Diventa socio</a></li>
+            <li><a href="5x1000.html">5x1000</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
+    <a class="btn btn-accent header-cta" href="sostienici.html#dona-ora">Dona ora</a>
   </div>
 </header>
-<a class="btn btn-accent mobile-donate-sticky" href="sostienici.html#dona-ora">Dona</a>
+<a class="btn btn-accent mobile-donate-sticky" href="sostienici.html#dona-ora">Dona ora</a>
 
 <main id="contenuto">
   <section class="section hero reveal">
@@ -179,6 +205,6 @@
   </div>
 </footer>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"NGO","name":"EHE Italia – Associazione Non Solo Laura ODV","url":"https://ai-cgk.github.io/EHE-IT-Website/index.html","email":"info@ehe-italia.it","address":{"@type":"PostalAddress","addressLocality":"Concorezzo","postalCode":"20863","addressRegion":"MB","addressCountry":"IT"},"description":"Associazione italiana di pazienti e caregiver per l'emangioendotelioma epitelioide (EHE): informazione, supporto e sostegno alla ricerca."}</script>
-<script src="assets/js/main.js" defer></script>
+<script src="assets/js/main.js?v=2" defer></script>
 </body>
 </html>

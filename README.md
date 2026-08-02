@@ -22,10 +22,9 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
   - `associazione.html`
   - `supporto.html`
   - `contatti.html`
-- `assets/img/logo-ehe-italia.svg`: marchio ufficiale (fiore EHE Italia) usato nell'header e come favicon
-- `assets/img/logo-ehe-italia-lockup.svg`: logo orizzontale completo (fiore + "EHE ITALIA / Associazione Non Solo Laura ODV")
+- `assets/img/favicon.svg`: favicon provvisoria (monogramma testuale)
 - `assets/css/style.css`: design system + layout responsive
-- `assets/js/main.js`: menu mobile, filtro centri, FAQ accordion, reveal on scroll
+- `assets/js/main.js`: menu mobile, menu a tendina, filtro centri, FAQ accordion, reveal on scroll
 - SEO tecnico: metadati unici, Open Graph, Twitter card, JSON-LD, `robots.txt`, `sitemap.xml`
 - `docs/GUIDA-WIX.md`: mappatura prototipo → Wix
 - `docs/CONTENUTI.md`: testi da copiare/incollare in Wix
@@ -43,6 +42,19 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
 1. In GitHub: **Settings → Pages**.
 2. Source: **GitHub Actions**.
 3. Ogni push su `main` pubblica automaticamente il sito.
+
+## Logo ufficiale (da inserire)
+
+L'header usa un segnaposto quadrato (`<span class="logo-placeholder">LOGO</span>`) accanto al
+titolo testuale "EHE Italia - Associazione Non Solo Laura ODV": il marchio precedente era un
+disegno non ufficiale ed e' stato rimosso.
+
+Per inserire il logo ufficiale:
+
+1. Aggiungere il file in `assets/img/logo-ehe-italia.png` (o `.svg`, preferibile).
+2. In tutte le pagine HTML, sostituire `<span class="logo-placeholder" aria-hidden="true">LOGO</span>`
+   con `<img class="logo-placeholder" src="assets/img/logo-ehe-italia.png" alt="" aria-hidden="true" />`.
+3. Sostituire `assets/img/favicon.svg` e `assets/favicon.svg` con la versione quadrata del marchio.
 
 ## Note
 
