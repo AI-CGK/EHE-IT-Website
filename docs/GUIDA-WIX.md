@@ -1,23 +1,32 @@
-# Guida Wix - Mappatura prototipo EHE Italia
+# Guida Wix - Palette ufficiale EHE Italia
 
-## Theme Manager (da impostare in Wix)
+## Theme Manager (HEX ufficiali)
 
-- Colore primario: `#274c77` *(TODO sostituire con HEX ufficiale logo)*
-- Primario soft: `#5f7d9f`
-- Accento CTA dona: `#c7663b` (usare **solo** per Dona/CTA primaria)
-- Sfondo caldo: `#faf7f2`
-- Testo: `#23262b`
-- Supporto: `#dcebe5`
+- `--c-primary: #E8535F` (corallo identitario: titoli grandi, elementi brand)
+- `--c-primary-dark: #B93744` (corallo scuro per testo piccolo/link con contrasto AA)
+- `--c-primary-soft: #F5A199` (superfici ampie e sfondi tenui)
+- `--c-accent: #F2A93B` (CTA Dona)
+- `--c-accent-light: #FCE8A8` (highlight e box informativi)
+- `--c-bg: #FFFFFF`
+- `--c-bg-warm: #FDF8F4`
+- `--c-bg-soft: #FDEEE9`
+- `--c-text: #23262B`
+- `--c-text-muted: #5C6169`
+- `--c-support: #7B9E8A`
 
-Font:
-- Titoli: **Lora**
-- Testo: **Inter** (18 desktop, 17 mobile, line-height 1.6)
+Gradiente decorativo riutilizzabile:
 
-Spaziature: multipli da 8px (8/16/24/32/48/64).
+- `--grad-petals: linear-gradient(135deg, #FCE8A8 0%, #F5A199 55%, #E8535F 100%)`
+
+## Regole contrasto (AA)
+
+- Non usare `#E8535F` per body text su bianco.
+- Usare `#B93744` per link e testo piccolo su sfondi chiari.
+- Su bottoni accent `#F2A93B`, usare testo `#23262B`.
 
 ## Mappatura sezione per sezione (Home)
 
-1. Hero: Sezione Wix a 2 colonne (testo + immagine), 2 bottoni.
+1. Hero: sezione Wix a 2 colonne (testo + immagine), 2 bottoni.
 2. Tre porte: Repeater 3 card.
 3. Definizione EHE: sezione testo centrato (max width ~720).
 4. Numeri impatto: 4 statistic cards.
@@ -27,41 +36,3 @@ Spaziature: multipli da 8px (8/16/24/32/48/64).
 8. News: Repeater 3 card.
 9. Newsletter + 5x1000: sezione 2 colonne con form e CTA.
 10. Footer: multicolonna con contatti, link, CF.
-
-## Pagine Wix richieste
-
-Ricreare in Wix le 9 pagine del prototipo mantenendo:
-- Header sticky
-- CTA Dona sticky su mobile
-- Menu: Ho l'EHE, Supporto, Ricerca, Associazione, Sostienici + DONA
-
-## JSON-LD (Wix Custom Code)
-
-- Home: schema `NGO`
-- `che-cos-e-ehe.html`: schema `MedicalCondition`
-- Pagine FAQ: schema `FAQPage`
-- Ogni pagina: `BreadcrumbList`
-
-In Wix: **Settings → Custom Code → Add Code** (Head).
-
-## Embed HTML necessari
-
-- Filtro directory centri in `dove-curarsi` (input + select + cards filtrabili)
-- Accordion FAQ (in alternativa componente Wix FAQ)
-
-## SEO Wix per pagina
-
-Per ogni pagina impostare manualmente:
-- SEO title unico
-- Meta description unica
-- Slug coerente
-- Open Graph title/description/image
-- Un solo H1
-
-## Verifiche pre-pubblicazione
-
-- Mobile 375px, tablet 768px, desktop 1440px
-- Contrasto AA
-- Focus tastiera visibile
-- Link interni funzionanti
-- Badge “da confermare” rimossi solo dopo validazione dati

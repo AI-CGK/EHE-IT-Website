@@ -37,4 +37,4 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
 ## Note
 
 - I dati marcati con badge `da confermare` o classe `.placeholder-note` vanno validati dall'associazione.
-- La palette in `:root` include TODO per allinearsi ai codici ufficiali del logo.
+- La palette in `:root` è allineata ai codici ufficiali del logo EHE Italia.
