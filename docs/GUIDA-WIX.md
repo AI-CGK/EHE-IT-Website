@@ -1,33 +1,38 @@
-# GUIDA WIX - Prototipo EHE Italia
+# Guida Wix - Palette ufficiale EHE Italia
 
-## Palette (Theme Manager)
-- Primario: `#E8535F`
-- CTA/Accento: `#F2A93B`
-- Supporto: `#7B9E8A`
-- Testo: `#23262B`
-- Sfondo base: `#FFF9F4`
-- Bordi: `#E7DED5`
+## Theme Manager (HEX ufficiali)
 
-## Mappatura pagine (Wix)
-1. `index.html` → Home (hero, 3 percorsi, impatto, disclaimer)
-2. `ho-ricevuto-la-diagnosi.html` → pagina guida pazienti (FAQ accordion)
-3. `che-cos-e-ehe.html` → pagina pilastro informativa
-4. `dove-curarsi.html` → directory centri con filtro per area geografica
-5. `ricerca.html` → progetti e rete clinica
-6. `sostienici.html` → donazioni e 5x1000
-7. `associazione.html` → missione, rete, trasparenza
-8. `supporto.html` → orientamento pazienti/caregiver
-9. `contatti.html` → contatti principali
+- `--c-primary: #E8535F` (corallo identitario: titoli grandi, elementi brand)
+- `--c-primary-dark: #B93744` (corallo scuro per testo piccolo/link con contrasto AA)
+- `--c-primary-soft: #F5A199` (superfici ampie e sfondi tenui)
+- `--c-accent: #F2A93B` (CTA Dona)
+- `--c-accent-light: #FCE8A8` (highlight e box informativi)
+- `--c-bg: #FFFFFF`
+- `--c-bg-warm: #FDF8F4`
+- `--c-bg-soft: #FDEEE9`
+- `--c-text: #23262B`
+- `--c-text-muted: #5C6169`
+- `--c-support: #7B9E8A`
 
-## Componenti Wix equivalenti
-- Header sticky con menu + bottone Dona
-- Sezioni full width impilate
-- Griglie card (2-3 colonne desktop, 1 mobile)
-- FAQ accordion
-- Repeater con filtro categoria (centri: nord/centro/sud)
+Gradiente decorativo riutilizzabile:
 
-## Import Theme Manager
-1. Inserire HEX palette sopra
-2. Font consigliato: Inter (body), alternativa Lora/Fraunces per heading
-3. Radius card: 12px, bordo leggero
-4. CTA unica in colore `#F2A93B`
+- `--grad-petals: linear-gradient(135deg, #FCE8A8 0%, #F5A199 55%, #E8535F 100%)`
+
+## Regole contrasto (AA)
+
+- Non usare `#E8535F` per body text su bianco.
+- Usare `#B93744` per link e testo piccolo su sfondi chiari.
+- Su bottoni accent `#F2A93B`, usare testo `#23262B`.
+
+## Mappatura sezione per sezione (Home)
+
+1. Hero: sezione Wix a 2 colonne (testo + immagine), 2 bottoni.
+2. Tre porte: Repeater 3 card.
+3. Definizione EHE: sezione testo centrato (max width ~720).
+4. Numeri impatto: 4 statistic cards.
+5. Storia: sezione 2 colonne (immagine + quote).
+6. Ricerca: Repeater 3 card progetto.
+7. Partner: griglia 4 card/loghi.
+8. News: Repeater 3 card.
+9. Newsletter + 5x1000: sezione 2 colonne con form e CTA.
+10. Footer: multicolonna con contatti, link, CF.

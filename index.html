@@ -1,74 +1,203 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EHE Italia | Associazione Pazienti</title>
-  <meta name="description" content="Informazione affidabile, supporto e ricerca su EHE in Italia.">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EHE Italia | Supporto pazienti e ricerca su emangioendotelioma epitelioide</title>
+  <meta name="description" content="EHE Italia supporta pazienti e caregiver, finanzia progetti di ricerca e collega i centri esperti sull'emangioendotelioma epitelioide." />
+  <link rel="canonical" href="https://ai-cgk.github.io/EHE-IT-Website/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EHE Italia | Supporto pazienti e ricerca su emangioendotelioma epitelioide" />
+  <meta property="og:description" content="EHE Italia supporta pazienti e caregiver, finanzia progetti di ricerca e collega i centri esperti sull'emangioendotelioma epitelioide." />
+  <meta property="og:url" content="https://ai-cgk.github.io/EHE-IT-Website/index.html" />
+  <meta property="og:image" content="https://placehold.co/1200x630/274c77/FFFFFF?text=EHE+Italia" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EHE Italia | Supporto pazienti e ricerca su emangioendotelioma epitelioide" />
+  <meta name="twitter:description" content="EHE Italia supporta pazienti e caregiver, finanzia progetti di ricerca e collega i centri esperti sull'emangioendotelioma epitelioide." />
+  <meta name="twitter:image" content="https://placehold.co/1200x630/274c77/FFFFFF?text=EHE+Italia" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-<a class="skip-link" href="#contenuto">Salta al contenuto</a>
+<a class="skip-link" href="#contenuto">Vai al contenuto principale</a>
 <header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html">EHE Italia<small>Associazione Pazienti</small></a>
-    <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="menu">Menu</button>
-    <nav id="menu" class="main-nav" data-main-nav>
-      <ul>
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="EHE Italia home">EHE Italia — Associazione Non Solo Laura ODV</a>
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" data-main-nav aria-label="Navigazione principale">
+      <ul class="nav-list">
         <li><a href="ho-ricevuto-la-diagnosi.html">Ho l'EHE</a></li>
         <li><a href="supporto.html">Supporto</a></li>
         <li><a href="ricerca.html">Ricerca</a></li>
         <li><a href="associazione.html">Associazione</a></li>
         <li><a href="sostienici.html">Sostienici</a></li>
-        <li><a class="cta" href="sostienici.html">Dona</a></li>
+        <li><a class="btn btn-accent" href="sostienici.html#dona-ora">DONA</a></li>
       </ul>
     </nav>
   </div>
 </header>
+<a class="btn btn-accent mobile-donate-sticky" href="sostienici.html#dona-ora">Dona</a>
+
 <main id="contenuto">
-  <section class="hero">
-    <h1>Non sei solo di fronte all'EHE.</h1>
-    <p>Informazione affidabile, supporto tra pazienti e sostegno alla ricerca sull'emangioendotelioma epitelioide in Italia.</p>
-    <div class="hero-actions">
-      <a class="cta" href="ho-ricevuto-la-diagnosi.html">Ho appena ricevuto la diagnosi</a>
-      <a href="dove-curarsi.html">Dove curarsi in Italia</a>
+  <!-- WIX: Sezione a piena larghezza, Hero con due colonne, immagine e CTA -->
+  <section class="section hero reveal">
+    <div class="container hero-grid">
+      <div>
+        <p class="breadcrumb">Associazione pazienti EHE in Italia</p>
+        <h1>Non sei solo di fronte all'EHE.</h1>
+        <p class="text-measure">Informazione affidabile, supporto tra pazienti e ricerca sull'emangioendotelioma epitelioide in Italia.</p>
+        <p style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a class="btn btn-primary" href="ho-ricevuto-la-diagnosi.html">Ho appena ricevuto una diagnosi</a>
+          <a class="btn btn-accent" href="sostienici.html">Sostieni la ricerca</a>
+        </p>
+      </div>
+      <img loading="lazy" src="https://placehold.co/720x460/f0f4f9/274c77?text=Foto+accoglienza+paziente" alt="Volontaria dell'associazione accoglie una persona appena diagnosticata durante un incontro informativo" />
     </div>
   </section>
 
-  <section class="section">
-    <h2>Tre percorsi principali</h2>
-    <div class="grid">
-      <article class="card"><h3>Sono un paziente</h3><p>Informazioni chiare su diagnosi, terapie, centri e supporto.</p></article>
-      <article class="card"><h3>Voglio sostenere</h3><p>Donazioni, 5x1000 e partnership per finanziare la ricerca.</p></article>
-      <article class="card"><h3>Sono un professionista</h3><p>Accesso rapido a centri, network e materiali utili.</p></article>
+  <!-- WIX: Sezione a piena larghezza, 3 card in Ripetitore (Repeater) -->
+  <section class="section section-warm reveal">
+    <div class="container">
+      <h2>Da dove vuoi iniziare?</h2>
+      <div class="grid grid-3">
+        <article class="card"><h3>Sono un paziente</h3><p>Trova informazioni chiare su diagnosi, percorsi di cura e supporto concreto.</p><a href="ho-ricevuto-la-diagnosi.html">Apri il percorso</a></article>
+        <article class="card"><h3>Voglio sostenere</h3><p>Contribuisci a progetti di ricerca, supporto ai pazienti e attività di sensibilizzazione.</p><a href="sostienici.html">Sostieni ora</a></article>
+        <article class="card"><h3>Sono un professionista sanitario</h3><p>Consulta progetti, pubblicazioni, network clinico e materiali aggiornati.</p><a href="ricerca.html">Area ricerca</a></article>
+      </div>
     </div>
   </section>
 
-  <section class="section grid">
-    <article class="card"><span class="tag">Impatto</span><h3>Pazienti supportati</h3><p>Dati in aggiornamento continuo con il direttivo.</p></article>
-    <article class="card"><span class="tag">Ricerca</span><h3>Progetti attivi</h3><p>Finanziamento mirato su EHE e tumori rari correlati.</p></article>
-    <article class="card"><span class="tag">Rete clinica</span><h3>Centri mappati</h3><p>10 centri italiani di riferimento già inclusi.</p></article>
+  <!-- WIX: Sezione testo centrato e link di approfondimento -->
+  <section class="section reveal">
+    <div class="container text-measure">
+      <h2>Che cos'è l'EHE in tre righe</h2>
+      <p>L'emangioendotelioma epitelioide (EHE) è un tumore vascolare raro con comportamenti clinici molto variabili. In alcune persone il decorso è lento e monitorabile, in altre richiede trattamenti sistemici o chirurgici. Per questo è fondamentale una presa in carico in centri con esperienza nei sarcomi.</p>
+      <a class="btn btn-soft" href="che-cos-e-ehe.html">Leggi la guida completa sull'EHE</a>
+    </div>
   </section>
 
-  <section class="section notice">
-    <strong>Disclaimer medico:</strong> i contenuti non sostituiscono il parere del medico. Per diagnosi e trattamenti rivolgersi ai centri specialistici.
+  <!-- WIX: Sezione neutra con 4 box statistiche -->
+  <section class="section section-support reveal">
+    <div class="container">
+      <h2>Numeri di impatto</h2>
+      <div class="grid grid-4 stats">
+        <article class="card"><span class="stat-value">310+</span><p>Pazienti e caregiver supportati dal 2021 <span class="placeholder-note">da confermare</span></p></article>
+        <article class="card"><span class="stat-value">9</span><p>Progetti finanziati tra borse e studi <span class="placeholder-note">da confermare</span></p></article>
+        <article class="card"><span class="stat-value">€ 420.000</span><p>Raccolti per ricerca e supporto <span class="placeholder-note">da confermare</span></p></article>
+        <article class="card"><span class="stat-value">10</span><p>Centri in rete sul territorio italiano</p></article>
+      </div>
+    </div>
   </section>
+
+  <!-- WIX: Sezione testimonianza con immagine e citazione -->
+  <section class="section reveal">
+    <div class="container hero-grid">
+      <img loading="lazy" src="https://placehold.co/620x420/e8eef5/274c77?text=Foto+paziente+reale" alt="Ritratto di Laura, paziente EHE, durante un evento associativo" />
+      <div>
+        <h2>Una storia che ci guida</h2>
+        <p class="story-quote">"Quando ho ricevuto la diagnosi mi sono sentita sola. Incontrare altre persone che avevano vissuto lo stesso percorso mi ha ridato direzione e fiducia."</p>
+        <p><strong>Laura M.</strong> <span class="placeholder-note">nome da confermare</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIX: Sezione a 3 card progetto ricerca -->
+  <section class="section section-warm reveal">
+    <div class="container">
+      <h2>La ricerca che sosteniamo</h2>
+      <div class="grid grid-3">
+        <article class="card"><img loading="lazy" src="https://placehold.co/560x330/f0f4f9/274c77?text=Ricercatrice+INT+Milano" alt="Ricercatrice in laboratorio all'Istituto Nazionale Tumori di Milano" /><h3>Biomarcatori predittivi EHE</h3><p>Finanziamento: € 60.000 — Stato: in corso <span class="placeholder-note">da confermare</span></p></article>
+        <article class="card"><img loading="lazy" src="https://placehold.co/560x330/f0f4f9/274c77?text=Team+IEO" alt="Team clinico multidisciplinare durante discussione casi EHE" /><h3>Registro multicentrico italiano</h3><p>Finanziamento: € 45.000 — Stato: avviato <span class="placeholder-note">da confermare</span></p></article>
+        <article class="card"><img loading="lazy" src="https://placehold.co/560x330/f0f4f9/274c77?text=Biobanca+sarcomi" alt="Campioni biologici in biobanca dedicata ai tumori rari" /><h3>Biobanca tumori vascolari rari</h3><p>Finanziamento: € 75.000 — Stato: in progettazione <span class="placeholder-note">da confermare</span></p></article>
+      </div>
+      <p><a href="ricerca.html" class="btn btn-soft">Vai a tutti i progetti</a></p>
+    </div>
+  </section>
+
+  <!-- WIX: Sezione partner in griglia semplice -->
+  <section class="section reveal">
+    <div class="container">
+      <h2>Rete internazionale</h2>
+      <div class="grid grid-4">
+        <article class="card partner-logo"><p><strong>EHE Foundation (USA)</strong><br /><a href="https://www.fightehe.org/" target="_blank" rel="noopener">fightehe.org</a></p></article>
+        <article class="card partner-logo"><p><strong>EHE Rare Cancer Charity (UK)</strong><br /><a href="https://www.ehercc.org.uk/" target="_blank" rel="noopener">ehercc.org.uk</a></p></article>
+        <article class="card partner-logo"><p><strong>EHE Deutschland</strong><br /><a href="https://rarecancer-ehe-deutschland.de/" target="_blank" rel="noopener">rarecancer-ehe-deutschland.de</a></p></article>
+        <article class="card partner-logo"><p><strong>Italian Sarcoma Group</strong><br /><a href="https://www.italiansarcomagroup.org/" target="_blank" rel="noopener">italiansarcomagroup.org</a></p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIX: Sezione news in ripetitore 3 card -->
+  <section class="section section-warm reveal">
+    <div class="container">
+      <h2>News ed eventi</h2>
+      <div class="grid grid-3">
+        <article class="card"><h3>Webinar pazienti: vivere con l'EHE</h3><p>19 settembre 2026 — incontro online con oncologo e psiconcologa. <span class="placeholder-note">data da confermare</span></p></article>
+        <article class="card"><h3>Nuovo bando borsa di studio</h3><p>Apertura candidatura per giovani ricercatori in oncologia dei sarcomi. <span class="placeholder-note">testo da confermare</span></p></article>
+        <article class="card"><h3>Incontro annuale rete EHE Italia</h3><p>Condivisione risultati e obiettivi 2027 con pazienti, medici e sostenitori.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIX: Sezione newsletter + box 5x1000 -->
+  <section class="section reveal">
+    <div class="container grid grid-2">
+      <article class="card">
+        <h2>Iscriviti alla newsletter</h2>
+        <p>Ricevi aggiornamenti su ricerca, iniziative e nuove risorse per pazienti e caregiver.</p>
+        <form class="form-grid" action="#" method="post">
+          <label for="home-newsletter-email">Email</label>
+          <input id="home-newsletter-email" name="email" type="email" placeholder="nome@email.it" required />
+          <button class="btn btn-primary" type="submit">Iscrivimi</button>
+        </form>
+      </article>
+      <article class="card section-support">
+        <h2>Dona il tuo 5x1000</h2>
+        <p>Inserisci il codice fiscale dell'associazione nella tua dichiarazione dei redditi.</p>
+        <p style="font-size:1.5rem;"><strong>CF 98765432109</strong> <span class="placeholder-note">da confermare</span></p>
+        <a class="btn btn-accent" href="sostienici.html">Scopri tutti i modi per sostenerci</a>
+      </article>
+    </div>
+  </section>
+
 </main>
 <footer class="site-footer">
-  <div class="footer-wrap">
-    <div>
-      <strong>EHE Italia</strong>
-      <p class="small">Associazione pazienti per informazione, supporto e ricerca.</p>
-      <p class="small">5x1000 (placeholder): XXXXXXXXXXX</p>
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h2 style="color:#fff;font-size:1.4rem;">EHE Italia — Associazione Non Solo Laura ODV</h2>
+      <p>Supportiamo pazienti e caregiver, finanziamo la ricerca e promuoviamo la rete clinica sull'emangioendotelioma epitelioide in Italia.</p>
+      <p><strong>Codice fiscale 5x1000: <span aria-label="Codice fiscale da confermare">98765432109</span></strong> <span class="placeholder-note">da confermare</span></p>
     </div>
-    <div class="small">
-      <a href="contatti.html">Contatti</a><br>
-      <a href="che-cos-e-ehe.html">Che cos'è EHE</a><br>
-      <a href="robots.txt">robots.txt</a>
+    <div class="footer-col">
+      <h3 style="color:#fff;">Percorsi</h3>
+      <ul>
+        <li><a href="ho-ricevuto-la-diagnosi.html">Ho appena ricevuto una diagnosi</a></li>
+        <li><a href="dove-curarsi.html">Dove curarsi in Italia</a></li>
+        <li><a href="che-cos-e-ehe.html">Che cos'è l'EHE</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 style="color:#fff;">Associazione</h3>
+      <ul>
+        <li><a href="associazione.html">Chi siamo</a></li>
+        <li><a href="ricerca.html">Progetti di ricerca</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 style="color:#fff;">Contatti</h3>
+      <p>Email: info@ehe-italia.it <span class="placeholder-note">da confermare</span></p>
+      <p>PEC: eheitalia@pec.it <span class="placeholder-note">da confermare</span></p>
+      <p>Sede legale: Milano <span class="placeholder-note">da confermare</span></p>
     </div>
   </div>
 </footer>
-<script src="assets/js/main.js"></script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NGO","name":"EHE Italia - Associazione Non Solo Laura ODV","url":"https://ai-cgk.github.io/EHE-IT-Website/","logo":"https://ai-cgk.github.io/EHE-IT-Website/assets/img/favicon.svg","sameAs":["https://www.fightehe.org/","https://www.ehercc.org.uk/","https://rarecancer-ehe-deutschland.de/"],"description":"Associazione italiana pazienti per l'emangioendotelioma epitelioide."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ai-cgk.github.io/EHE-IT-Website/index.html"}]}</script>
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>
