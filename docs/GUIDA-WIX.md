@@ -12,7 +12,7 @@
 - `--c-bg-soft: #FDEEE9`
 - `--c-text: #23262B`
 - `--c-text-muted: #5C6169`
-- `--c-support: #7B9E8A`
+- `--c-support: #FDEEE9`
 
 Gradiente decorativo riutilizzabile:
 

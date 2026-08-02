@@ -4,16 +4,26 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
 
 ## Cosa contiene
 
-- 9 pagine HTML navigabili:
+- 17 pagine HTML navigabili:
   - `index.html`
-  - `ho-ricevuto-la-diagnosi.html`
   - `che-cos-e-ehe.html`
+  - `servizi-per-il-paziente.html`
   - `dove-curarsi.html`
+  - `documenti-di-consenso.html`
+  - `the-pledge.html`
+  - `progetti-ed-eventi.html`
+  - `storie-di-pazienti-e-caregiver-ehe.html`
+  - `5x1000.html`
+  - `diventa-socio.html`
+  - `blog.html`
+  - `ho-ricevuto-la-diagnosi.html`
   - `ricerca.html`
   - `sostienici.html`
   - `associazione.html`
   - `supporto.html`
   - `contatti.html`
+- `assets/img/logo-ehe-italia.svg`: marchio ufficiale (fiore EHE Italia) usato nell'header e come favicon
+- `assets/img/logo-ehe-italia-lockup.svg`: logo orizzontale completo (fiore + "EHE ITALIA / Associazione Non Solo Laura ODV")
 - `assets/css/style.css`: design system + layout responsive
 - `assets/js/main.js`: menu mobile, filtro centri, FAQ accordion, reveal on scroll
 - SEO tecnico: metadati unici, Open Graph, Twitter card, JSON-LD, `robots.txt`, `sitemap.xml`
