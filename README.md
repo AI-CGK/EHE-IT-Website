@@ -22,6 +22,8 @@ Prototipo statico completo (HTML/CSS/JS vanilla) del nuovo sito **EHE Italia –
   - `associazione.html`
   - `supporto.html`
   - `contatti.html`
+- `assets/img/logo-ehe-italia.svg`: marchio ufficiale (fiore EHE Italia) usato nell'header e come favicon
+- `assets/img/logo-ehe-italia-lockup.svg`: logo orizzontale completo (fiore + "EHE ITALIA / Associazione Non Solo Laura ODV")
 - `assets/css/style.css`: design system + layout responsive
 - `assets/js/main.js`: menu mobile, filtro centri, FAQ accordion, reveal on scroll
 - SEO tecnico: metadati unici, Open Graph, Twitter card, JSON-LD, `robots.txt`, `sitemap.xml`
